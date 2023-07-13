@@ -1,9 +1,10 @@
 {
-  "homepage": "https://lasaru2000.github.io/FoodTechlogin",
+  "homepage": "https://lasaru2000.github.io/FoodTech",
   "name": "001-sign-up",
   "version": "0.0.1",
   "private": true,
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "react-scripts": "0.4.1"
   },
   "dependencies": {
