@@ -1,4 +1,5 @@
 {
+  "homepage": "https://lasaru2000.github.io/FoodTechlogin",
   "name": "001-sign-up",
   "version": "0.0.1",
   "private": true,
@@ -15,6 +16,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
